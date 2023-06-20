@@ -12,15 +12,16 @@ void _push(stack_t **stack, unsigned int line_number)
 {
 	int val;
 	char *arg = strtok(NULL, " \n\t");
+	stack_t *new_element;
 
 	if (arg == NULL || !isdigit(*arg))
 	{
-		fprint(stderr, "L%u: usage: push integer\n", line_number);
+		fprintf(stderr, "L%u: usage: push integer\n", line_number);
 		exit(EXIT_FAILURE);
 	}
 	val = atoi(arg);
 
-	stack_t *new_element = malloc(sizeof(stack_t));
+	new_element = malloc(sizeof(stack_t));
 
 	if (new_element == NULL)
 	{
