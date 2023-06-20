@@ -1,7 +1,7 @@
 #ifndef MONTY_H
 #define MONTY_H
 
-/*--------------------Includes libraries--------------------*/ 
+/*--------------------Includes libraries--------------------*/
 #include <stdlib.h>
 #include <stdio.h>
 #include <unistd.h>
@@ -41,9 +41,9 @@ typedef struct instruction_s
 } instruction_t;
 
 /*----------------------ProtoTypes----------------------*/
-void push(stack_t **stack, unsigned int line_number);
-void pall(stack_t **stack, unsigned int line_number);
-void pint(stack_t **head, unsigned int counter);
+void _push(stack_t **stack, unsigned int line_number);
+void _pall(stack_t **stack, unsigned int line_number);
+void _pint(stack_t **head, unsigned int counter);
 
 
 #endif /* MONTLY_H */
