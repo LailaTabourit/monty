@@ -1,14 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>Monty - 0x19. C - Stacks, Queues - LIFO, FIFO</title>
-</head>
-<body>
-  <h1>Monty</h1>
-  
-  <h2>Team Information</h2>
+ <h1>Monty</h1>
+<img src="https://camo.githubusercontent.com/b32fc84889b63b30d73d84553419e4190d552be0e75b28f106478bb3c1859798/68747470733a2f2f7777772e6765656b73756c74642e636f6d2f77702d636f6e74656e742f75706c6f6164732f323032302f30352f4d6f6e74792d537461636b732d5175657565732e6a7067" alt="Monty Logo">
+  <h2>0x19. C - Stacks, Queues - LIFO, FIFO</h2>
   <ul>
+    <li>This project is done in teams of 2 people.</li>
     <li>Team: Laila Tabourit, Zakaria Berahmi</li>
   </ul>
   
@@ -176,5 +170,3 @@ L3: unknown instruction pcx
   <p>&copy; 2023 Laila Tabourit & Zakaria Berahmi</p>
     This repository is licensed under the MIT License. See the <a href="LICENSE">LICENSE</a> file for more information.
   </p>  
-</body>
-</html>
