@@ -30,14 +30,14 @@ int main(int argc, char *argv[])
 	}
 	instructions = _init_instructions();
 
-	while(fgets(buff, BUFF_SIZE, f))
+	while (fgets(buff, BUFF_SIZE, f))
 	{
 		line_num++;
 		opcode = strtok(buff, " \n\t");
 		if (opcode == NULL || opcode[0] == '#')
 			continue;
 		valid_op = 0;
-		for(n = 0; instructions[n].opcode != NULL; n++)
+		for (n = 0; instructions[n].opcode != NULL; n++)
 		{
 			if (strcmp(opcode, instructions[n].opcode) == 0)
 			{
