@@ -165,6 +165,13 @@ L3: unknown instruction pcx
     <li>Laila Tabourit</li>
     <li>Zakaria Berahmi</li>
   </ul>
+<h6>For more info check this : </h6>
+<code><a href="https://www.scaler.com/topics/application-of-linked-list/](https://data-flair.training/blogs/stacks-and-queues-in-c/)https://data-flair.training/blogs/stacks-and-queues-in-c/">stacks & queues</a></code>
+
+<code><a href="https://www.scaler.com/topics/application-of-linked-list/](https://www.digitalocean.com/community/tutorials/stack-in-c)">How To Implement a Stack in C Programming</a></code>
+
+<code><a href="https://www.scaler.com/topics/application-of-linked-list/](https://data-flair.training/blogs/stacks-and-queues-in-c/)https://data-flair.training/blogs/stacks-and-queues-in-c/](https://www.edureka.co/blog/queue-in-c/)">How To Implement Queue in C?</a></code>
+
   <p> 
   <h2 id="license">License</h2>
   <p>&copy; 2023 Laila Tabourit & Zakaria Berahmi</p>
