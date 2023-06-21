@@ -15,6 +15,8 @@ instruction_t *_init_instructions(void)
 		{"swap", _swap},
 		{"nop", _nop},
 		{"add", _add},
+		{"sub", _sub},
+		{"div", _div},
 		{NULL, NULL}
 	};
 
