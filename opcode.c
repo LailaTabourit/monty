@@ -11,6 +11,7 @@ instruction_t *_init_instructions(void)
 		{"push", _push},
 		{"pall", _pall},
 		{"pint", _pint},
+		{"nop", _nop},
 		{NULL, NULL}
 	};
 
