@@ -10,7 +10,7 @@
 */
 int main(int argc, char *argv[])
 {
-	int n, valid_op = 0;
+	int n, valid_op;
 	char buff[BUFF_SIZE], *opcode;
 	stack_t *stack = NULL;
 	unsigned int line_num = 0;
