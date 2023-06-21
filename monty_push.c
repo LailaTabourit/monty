@@ -14,7 +14,7 @@ void _push(stack_t **stack, unsigned int line_number)
 	char *arg = strtok(NULL, " \n\t");
 	stack_t *new_element;
 
-	if (arg == NULL || !isdigit(*arg))
+	if (arg == NULL || (!isdigit(*arg) && *arg != '-'))
 	{
 		fprintf(stderr, "L%u: usage: push integer\n", line_number);
 		exit(EXIT_FAILURE);
