@@ -12,6 +12,7 @@ instruction_t *_init_instructions(void)
 		{"pall", _pall},
 		{"pint", _pint},
 		{"pop", _pop},
+		{"swap", _swap},
 		{"nop", _nop},
 		{NULL, NULL}
 	};
