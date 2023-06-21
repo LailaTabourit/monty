@@ -10,7 +10,7 @@ instruction_t *_init_instructions(void)
 	static instruction_t instructions[] = {
 		{"push", _push},
 		{"pall", _pall},
-		{"pint", _pint},
+		{"pint", pint},
 		{NULL, NULL}
 	};
 
