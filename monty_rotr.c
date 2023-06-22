@@ -1,4 +1,4 @@
-#include "monty.c"
+#include "monty.h"
 
 /**
 * _rotr -  rotates the stack to the bottom
@@ -9,17 +9,16 @@
 void _rotr(stack_t **stack, unsigned int line_number)
 {
 	stack_t *curr = *stack;
-	stack_t *lst = *stack;
-	(void)line_number;
+	(void) line_number;
 
 	if (*stack == NULL || (*stack)->next == NULL)
 		return;
-	while (lst->next != NULL)
-		lst = lst->next;
+	while (curr->next != NULL)
+		curr = curr->next;
 
-	lst->prev->next = NULL;
-	lst->prev = NULL;
-	lst->next = curr;
-	curr->prev = lst;
-	*stack = lst;
+	curr->prev->next = NULL;
+	curr->prev = NULL;
+	curr->next = *stack;
+	(*stack)->prev = curr;
+	*stack = curr;
 }
