@@ -22,6 +22,7 @@ instruction_t *_init_instructions(void)
 		{"pchar", _pchar},
 		{"pstr", _pstr},
 		{"rotl", _rotl},
+		{"rotr", _rotr},
 		{NULL, NULL}
 	};
 

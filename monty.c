@@ -10,7 +10,7 @@
 */
 int main(int argc, char *argv[])
 {
-	int n, valid_op;
+	int i, valid_op;
 	char buff[BUFF_SIZE], *opcode;
 	stack_t *stack = NULL;
 	unsigned int line_num = 0;
@@ -37,12 +37,12 @@ int main(int argc, char *argv[])
 		if (opcode == NULL || opcode[0] == '#')
 			continue;
 		valid_op = 0;
-		for (n = 0; instructions[n].opcode != NULL; n++)
+		for (i = 0; instructions[i].opcode != NULL; i++)
 		{
-			if (strcmp(opcode, instructions[n].opcode) == 0)
+			if (strcmp(opcode, instructions[i].opcode) == 0)
 			{
 				valid_op = 1;
-				instructions[n].f(&stack, line_num);
+				instructions[i].f(&stack, line_num);
 				break;
 			}
 		}
