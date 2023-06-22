@@ -12,10 +12,17 @@ void _pall(stack_t **stack, unsigned int line_number)
 	stack_t *curr;
 	(void)line_number;
 
-	curr = *stack;
-	while (curr != NULL)
+	if (dt_format == STACK)
 	{
-		printf("%d\n", curr->n);
-		curr = curr->next;
+		curr = *stack;
+		while (curr != NULL)
+		{
+			printf("%d\n", curr->n);
+			curr = curr->next;
+		}
 	}
+	else if (dt_format == QUEUE)
+	{
+		curr = *stack;
+		while (curr->
 }
