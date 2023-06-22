@@ -20,6 +20,7 @@ instruction_t *_init_instructions(void)
 		{"mul", _mul},
 		{"mod", _mod},
 		{"pchar", _pchar},
+		{"pstr", _pstr},
 		{NULL, NULL}
 	};
 
