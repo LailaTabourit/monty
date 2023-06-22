@@ -23,8 +23,6 @@ instruction_t *_init_instructions(void)
 		{"pstr", _pstr},
 		{"rotl", _rotl},
 		{"rotr", _rotr},
-		{"stack", _stack},
-		{"queue", _queue},
 		{NULL, NULL}
 	};
 
